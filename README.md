@@ -1,4 +1,4 @@
-## <div align="center"><img src="https://github.com/gabrielsanttana/mercado-livre/blob/master/mercado-livre.png"  /></div>
+## <div align="center"><img src="./.github/mercado-livre.png"  /></div>
 
 ###
 
