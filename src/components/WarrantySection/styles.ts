@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.div`
-  & + & {
-    border-top: 1px solid var(--color-border);
-  }
-
+  border-top: 1px solid var(--color-border);
   padding: 48px 32px;
   display: flex;
   flex-direction: column;
