@@ -1,7 +1,14 @@
 import React from 'react';
+import ProductPage from './pages/ProductPage';
+import GlobalStyle from './styles/GlobalStyles';
 
 function App() {
-  return <h1>Rocketseat</h1>;
+  return (
+    <>
+      <ProductPage />
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
