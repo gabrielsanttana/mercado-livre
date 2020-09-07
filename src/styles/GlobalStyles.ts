@@ -10,6 +10,7 @@ export default createGlobalStyle`
     --color-green: #00a650;
 
     --color-header: #FFF159;
+    --color-footer: #fff;
     --color-search-placeholder: #AAAAAA;
     --color-border: #ddd;
 
