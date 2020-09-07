@@ -45,9 +45,11 @@ const ProductAction: React.FC = () => {
         <TruckIcon />
 
         <div>
-          <span>Frete grátis</span>
-          <span>Benefício Premium</span>
-          <a href="#">Ver mais opções</a>
+          <span className="title">Frete grátis</span>
+          <span className="details">Benefício Premium</span>
+          <a href="#" className="seeMore">
+            Ver mais opções
+          </a>
         </div>
       </ShipmentCard>
 

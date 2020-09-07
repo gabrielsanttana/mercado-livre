@@ -2,6 +2,7 @@ import React from 'react';
 import SellerInfo from '../SellerInfo';
 import WarrantySection from '../WarrantySection';
 import ProductInfo from '../ProductInfo';
+import ProductAction from '../ProductAction';
 import {Container, Row, Panel, Column, Gallery} from './styles';
 import TShirt from '../../assets/tshirt.png';
 
@@ -23,6 +24,7 @@ const Product: React.FC = () => {
         </Column>
 
         <Column>
+          <ProductAction />
           <SellerInfo />
           <WarrantySection />
           <WarrantySection />
